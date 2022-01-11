@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/coffee_nav"
+        android:icon="@drawable/ic_coffee_cup"
+        android:title="Home" />
+    <item
+        android:id="@+id/burger_nav"
+        android:icon="@drawable/ic_hamburger"
+        android:title="Service" />
+    <item
+        android:id="@+id/pizza_nav"
+        android:icon="@drawable/ic_pizza_24"
+        android:title="Contact" />
+
+
+</menu>

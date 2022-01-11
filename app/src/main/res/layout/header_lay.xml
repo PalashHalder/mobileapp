@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/purple_500"
+    android:gravity="center"
+    android:layout_height="@dimen/_150sdp">
+
+    <ImageView
+        android:src="@drawable/ic_coffee_cup"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"/>
+
+</LinearLayout>

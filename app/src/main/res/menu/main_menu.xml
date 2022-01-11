@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:icon="@drawable/ic_baseline_restaurant_menu_24"
+        android:title="menu"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+
+                android:id="@+id/coffee"
+                android:icon="@drawable/ic_coffee_cup"
+                android:title="Coffee"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/burger"
+                android:icon="@drawable/ic_hamburger"
+                android:title="Burger"
+                app:showAsAction="ifRoom" />
+            <item
+                android:id="@+id/pizza"
+                android:icon="@drawable/ic_pizza_24"
+                android:title="Pizza"
+                app:showAsAction="never" />
+
+
+        </menu>
+
+
+    </item>
+
+
+</menu>

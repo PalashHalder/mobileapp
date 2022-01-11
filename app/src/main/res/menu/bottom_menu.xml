@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/coffee_bot"
+        android:icon="@drawable/ic_coffee_cup"
+        android:title="Coffee" />
+    <item
+        android:id="@+id/burger_bot"
+        android:icon="@drawable/ic_hamburger"
+        android:title="Burger" />
+    <item
+        android:id="@+id/pizza_bot"
+        android:icon="@drawable/ic_pizza_24"
+        android:title="Pizza" />
+
+
+</menu>
